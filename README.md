@@ -1,9 +1,9 @@
-# ascon-lightweight" 
+# Ascon-Lightweight" 
 This repo is for our article submitted for publication, all designs and scripts are inlcuded in this repo. 
 
-#Structure
+# Structure
 ```
-./
+.
 ├── ascon_128
 │   ├── ascon_encrypt
 │   │   ├── tb
