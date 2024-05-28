@@ -3,6 +3,7 @@ This repo is for our article submitted for publication, all designs and scripts 
 
 #Structure
 
+.
 ├── ascon_128
 │   ├── ascon_encrypt
 │   │   ├── tb
@@ -57,5 +58,7 @@ This repo is for our article submitted for publication, all designs and scripts 
 │   └── sample
 │       ├── inputs_float128a.txt
 │       └── inputs_float128.txt
-└── README.md
+├── README.md
+└── sample.txt
 
+22 directories, 34 files
