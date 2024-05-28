@@ -1,4 +1,4 @@
-# ascon-lightweight" 
+# Ascon-Lightweight" 
 This repo is for our article submitted for publication, all designs and scripts are inlcuded in this repo. 
 
 ```
@@ -92,6 +92,8 @@ This repo is for our article submitted for publication, all designs and scripts 
 ```
 # Contact
 
-Kashif Inayat      - kashif.inayat@inu.ac.kr
-SafiUllah Khan     - safi.jadoon@live.com
-Fahad Bin Muslim   - fahadbinmuslim@gmail.com
+Kashif Inayat      - kashif.inayat@inu.ac.kr [[Home](kashifinayat.github.io)]
+
+SafiUllah Khan     - safi.jadoon@live.com    [[Home](https://safijadoon.github.io/)]
+
+Fahad Bin Muslim   - fahadbinmuslim@gmail.com    [[Home](https://giki.edu.pk/personnel/dr-fahad-bin-muslim/)]
