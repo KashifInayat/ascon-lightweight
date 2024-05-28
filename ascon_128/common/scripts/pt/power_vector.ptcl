@@ -1,0 +1,33 @@
+#Designer: Kashif Inayat, INU South Korea (www.kashifinayat.github.io)
+# run this file with: pt_shell -f power_vector.ptcl | tee run_pt.outdcopt.tcl | tee dcopt.out
+
+set search_path [list . ../]
+
+#Libraries can be define through seperate tcl file
+source $::env(TOP_DIR)/../lib_file/lib_container_pt.tcl
+
+set power_enable_analysis TRUE
+set power_analysis_mode averaged
+
+#set power_analysis_mode time_based
+
+#read Netlist
+read_ddc $::env(NTLST_DIR)/designs/postdc_netlist.ddc
+
+
+link_design
+
+current_design
+
+#read_parasitics top_level.spef
+
+read_saif $::env(TOP_DIR)/work_pt/netlist.saif -strip_path $::env(UUT)_tb/uut
+check_power
+update_power
+
+report_power -verbose -hierarchy > $::env(NTLST_DIR)/final_reports/power.txt
+
+current_instance uut1
+report_power -verbose
+report_power -verbose  >> $::env(NTLST_DIR)/final_reports/power.txt
+exit
