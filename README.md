@@ -92,7 +92,7 @@ This repo is for our article submitted for publication, all designs and scripts 
 ```
 # Contact
 
-Kashif Inayat      - kashif.inayat@inu.ac.kr [[Home](kashifinayat.github.io)]
+Kashif Inayat      - kashif.inayat@inu.ac.kr [[Home](https://kashifinayat.github.io)]
 
 SafiUllah Khan     - safi.jadoon@live.com    [[Home](https://safijadoon.github.io/)]
 
